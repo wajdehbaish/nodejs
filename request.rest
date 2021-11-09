@@ -1,0 +1,25 @@
+
+GET http://localhost:5000/yousef
+
+###
+POST http://localhost:5000/lala
+content-type: application/json
+
+{"name":"ameer"}
+
+###
+
+GET http://localhost:5000/games
+
+###
+
+POST http://localhost:5000/addTeam
+content-type: application/json
+
+{"team":"liverpool"}
+
+###
+PUT http://localhost:5000/editTeam
+content-type: application/json
+
+{"team":"chealsea","position":2}
